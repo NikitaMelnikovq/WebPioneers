@@ -1,0 +1,62 @@
+//====================================================================================================
+.wrapper {
+}
+.page {
+
+		&-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+		}
+
+		&-content {
+            max-width: 30%;
+		}
+
+		&-form {
+		}
+
+		&-image {
+            position: relative;
+			&__overlay {
+                position: absolute;
+                top: 0;
+                left: 0;
+                min-width: 100%;
+                min-height: 100%;
+                background-color: #DDDDDD;
+			}
+		}
+}
+.content {
+		&-header {
+            font-size: rem(48);
+            font-weight: 700;
+            margin-bottom: rem(25);
+		}
+
+		&-text {
+            margin-bottom: rem(100);
+		}
+}
+.form {
+        display: flex;
+        
+
+		&-page {
+
+			&__univesity {
+			}
+
+			&__grade {
+			}
+
+			&__button {
+			}
+		}
+}
+.form_text {
+}
+
+
+//====================================================================================================

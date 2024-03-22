@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+	@@include('html/_head.htm',{
+	"title":"Главная"
+	})
+	<body>
+		<div class="wrapper">
+			@@include('html/_header.htm',{})
+			<main class="page">
+				
+				<div class="page-container">
+				<div class="page-content content">
+					<h1 class="content-header">Привет</h1>
+					<p class="content-text">Тебе скучно и одиноко? Не с кем провести этот вечер? Жаль. Текст. Текст. Текст. Текст. Текст. Текст. Текст. Текст. Текст. Текст. Текст. Текст. Текст. Текст. Текст. Текст. Текст. Текст. </p>
+					<form action="#" class="page-form form-page">
+						<label for="university">Выбери ВУЗ:</label>
+						<select name="university" class="form-page__univesity">
+							<option value="urfu" selected>Пункт №2</option>
+							<option value="msu">Пункт №2</option>
+							<option value="2">Пункт №2</option>
+							<option value="3">Пункт №3</option>
+							<option value="4">Пункт №4</option>
+						</select>
+						<label for="grade" class="form_text">А теперь курс:</label>
+						<select name="grade" class="form-page__grade">
+							<option value="1" selected>Пункт №1</option>
+							<option value="2">Пункт №2</option>
+							<option value="3">Пункт №3</option>
+							<option value="4">Пункт №4</option>
+						</select>
+						<button class="form-page__button">Посмотреть</button>
+					</form>
+				</div>
+				<div class="page-image">
+					<div class="page-image__overlay"></div>
+					<img src="@img/Web_Pioneers_white.png" alt="Web_Pioneers">
+				</div>
+			</div>
+			</main>
+			@@include('html/_footer.htm',{})
+		</div>
+		@@include('html/_popup.htm',{})
+		@@include('html/_js.htm',{})
+	</body>
+</html>
